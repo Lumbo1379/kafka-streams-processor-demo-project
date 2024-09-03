@@ -40,7 +40,7 @@ class UserActivityTopology {
             val activityUsersEventSerde = KafkaProtobufSerde(ActivityUsersEvent::class.java)
             activityUsersEventSerde.configure(serdeConfig, false)
 
-            val inactivityGap = Duration.ofSeconds(properties["inactivity.gap"] as Long)
+            val inactivityGap = Duration.ofSeconds(properties["inactivity.gap"].toString().toLong())
 
             val aggregatedActivityStore =
                 Stores.persistentSessionStore("aggregated-activity-store", Duration.ofDays(1))
