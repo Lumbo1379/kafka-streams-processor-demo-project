@@ -1,0 +1,7 @@
+syntax = "proto3";
+package users.activity;
+
+
+message ActivityUsersEvent {
+  repeated string page_ids = 1;
+}

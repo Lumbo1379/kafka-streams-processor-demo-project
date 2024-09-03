@@ -1,0 +1,4 @@
+services:
+  kafka-streams:
+    image: kafka-streams-demo-project
+    build: .

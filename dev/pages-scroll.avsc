@@ -1,0 +1,27 @@
+{
+  "namespace": "datagen.pages",
+  "name": "scroll",
+  "type": "record",
+  "fields": [
+    {
+      "name": "user_id",
+      "type": {
+        "type": "long",
+        "arg.properties": {
+          "options": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        }
+      }
+    }
+  ]
+}

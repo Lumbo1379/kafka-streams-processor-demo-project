@@ -1,0 +1,19 @@
+{
+  "name": "datagen-pages-scroll",
+  "config": {
+    "connector.class": "io.confluent.kafka.connect.datagen.DatagenConnector",
+    "kafka.topic": "pub.pages.scroll.v1",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "io.confluent.connect.protobuf.ProtobufConverter",
+    "value.converter.schemas.enable": "false",
+    "value.converter.schema.registry.url": "http://schema-registry:8081",
+    "max.interval": 5000,
+    "output.data.format": "PROTOBUF",
+    "schema.filename": "/custom-datagen-configs/pages-scroll.avsc",
+    "schema.keyfield": "user_id",
+    "tasks.max": "1",
+    "transforms": "SetSchemaMetadata",
+    "transforms.SetSchemaMetadata.type": "org.apache.kafka.connect.transforms.SetSchemaMetadata$Value",
+    "transforms.SetSchemaMetadata.schema.name": "ScrollPagesEvent"
+  }
+}

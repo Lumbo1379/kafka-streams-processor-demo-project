@@ -1,0 +1,7 @@
+syntax = "proto3";
+package pages.scroll;
+
+
+message ScrollPagesEvent {
+  uint32 user_id = 1;
+}

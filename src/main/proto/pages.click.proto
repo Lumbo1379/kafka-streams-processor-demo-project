@@ -1,0 +1,7 @@
+syntax = "proto3";
+package pages.click;
+
+
+message ClickPagesEvent {
+  uint32 user_id = 1;
+}
