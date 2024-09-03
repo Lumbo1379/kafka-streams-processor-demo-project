@@ -27,3 +27,7 @@ You should see results being printed to console, and appearing in the sink topic
 After making changes run
 
 `just build`
+
+## Cleanup
+
+`just destroy`
