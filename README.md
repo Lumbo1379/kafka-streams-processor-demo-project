@@ -31,3 +31,7 @@ After making changes run
 ## Cleanup
 
 `just destroy`
+
+# Presentation
+
+https://docs.google.com/presentation/d/1d3_aEzIyJZZXZ0JWy-27S6eeHM7JChzFH05PlhMewaQ/edit?usp=sharing
