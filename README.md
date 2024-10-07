@@ -34,4 +34,8 @@ After making changes run
 
 # Presentation
 
-https://docs.google.com/presentation/d/1d3_aEzIyJZZXZ0JWy-27S6eeHM7JChzFH05PlhMewaQ/edit?usp=sharing
+https://docs.google.com/presentation/d/1F0iEwQDS2kcTUxOLLDeYv_qtsIqn6DzBaNFW8TZAPsA/edit?usp=sharing
+
+# Script
+
+https://docs.google.com/document/d/1_lbhmI-qjdVfpT-2Vx4rKz5v9W-i-GFJh3aFjQNveMg/edit?usp=sharing
